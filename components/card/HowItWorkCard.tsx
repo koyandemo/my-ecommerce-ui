@@ -4,7 +4,7 @@ import React from 'react'
 
 const HowItWorkCard = ({img}:Omit<HowItWorkCardProps,'id'>) => {
   return (
-    <div className='bg-gray-400' style={{ width: "185px", height: "280px", position: "relative" }}>
+    <div className='bg-gray-400 w-[100%] sm:w-[185px] h-[280px] relative'>
           <Image
             alt="Banner"
             layout="fill"

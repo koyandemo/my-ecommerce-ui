@@ -1,7 +1,7 @@
 "use client";
 
 import { SectionFaqProps } from "@/utils/types";
-import React, { act, useState } from "react";
+import React, { useState } from "react";
 
 const SectionFaq = ({ data }: SectionFaqProps) => {
   const [active, setActie] = useState<number[]>([]);
