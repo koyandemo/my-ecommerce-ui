@@ -1,0 +1,51 @@
+.text {
+    line-height: normal;
+    font-style: normal;
+    margin: unset;
+    padding: unset;
+    cursor: text;
+    line-height: 1.5rem;
+
+    &-sm {
+      font-size: 14px;
+      line-height: 19.41px !important;
+    }
+  
+    &-md {
+      font-size: 18px;
+    }
+  
+    &-lg {
+      font-size: 30px;
+      line-height: 24.26px !important;
+    }
+  
+    &-normal {
+      font-weight: 400;
+    }
+  
+    &-medium {
+      font-weight: 500;
+    }
+  
+    &-bold {
+      font-weight: 700;
+    }
+  
+    &-capitalize {
+      text-transform: capitalize;
+    }
+  
+    &-uppercase {
+      text-transform: uppercase;
+    }
+  
+    &-lowercase {
+      text-transform: lowercase;
+    }
+  
+    &-none {
+      text-transform: none;
+    }
+  
+  }
