@@ -38,6 +38,7 @@ const SectionOurPlan = ({ design, data }: SectionOurPlanProps) => {
       >
         {data.map((item) => (
           <div
+          key={item.id}
             className={`border rounded-xl max-w-[20rem] flex flex-col items-center justify-center ${
               item.id !== 2
                 ? "border-secondary-tone px-[12px] py-[25px] bg-gray-alabaster text-black"

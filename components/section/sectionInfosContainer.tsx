@@ -15,6 +15,7 @@ const SectionInfosContainer = ({
     <div>
       {data.map((item, i) => (
         <ShareScan
+          key={i}
           isReverse={
             design === 1
               ? (i + 1) % 2
