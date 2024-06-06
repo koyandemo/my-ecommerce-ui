@@ -27,3 +27,12 @@ export interface SectionFaqProps{
 
 
 export type infoDatasType  = {img:string,title:string,description:string,btnLabel:string}[]
+
+export type OurPlanDatasType = {
+  id:number;
+  title:string;
+  plan:number;
+  category:string;
+  description:string;
+  btnLabel:string;
+}

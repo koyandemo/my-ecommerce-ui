@@ -1,26 +1,26 @@
 export const videoUrl =
-  "https://firebasestorage.googleapis.com/v0/b/test-6bcb7.appspot.com/o/Shre%20Video%203%20V5.mp4?alt=media&amp;token=f83a4c3a-967e-4a8a-be01-e08ccaecd771";
+  "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/myvideo.mp4?alt=media";
 
 export const ourClientsDataRaws = [
   {
     id: 1,
     name: "client 1",
-    img: "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Fclient1.webp?alt=media",
   },
   {
     id: 2,
     name: "client 2",
-    img: "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Fclient2.jpg?alt=media",
   },
   {
     id: 3,
     name: "client 3",
-    img: "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Fclient3.jpeg?alt=media",
   },
   {
     id: 4,
     name: "client 4",
-    img: "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Fclient4.avif?alt=media",
   },
 ];
 
@@ -28,25 +28,25 @@ export const ourSingatureProductsRaws = [
   {
     id: 1,
     title: "Metal business card",
-    img: "https://media.wired.com/photos/64daad6b4a854832b16fd3bc/master/pass/How-to-Choose-a-Laptop-August-2023-Gear.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Fmetalbusinesscard.webp?alt=media",
     description: "Lorem Ipsum Dolar",
   },
   {
     id: 2,
     title: "PVC business card",
-    img: "https://media.wired.com/photos/64daad6b4a854832b16fd3bc/master/pass/How-to-Choose-a-Laptop-August-2023-Gear.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Fpvcbusinesscard.webp?alt=media",
     description: "Lorem Ipsum Dolar",
   },
   {
     id: 3,
     title: "Phone tags",
-    img: "https://media.wired.com/photos/64daad6b4a854832b16fd3bc/master/pass/How-to-Choose-a-Laptop-August-2023-Gear.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Fphtags.webp?alt=media",
     description: "Lorem Ipsum Dolar",
   },
   {
     id: 4,
     title: "Table talkers",
-    img: "https://media.wired.com/photos/64daad6b4a854832b16fd3bc/master/pass/How-to-Choose-a-Laptop-August-2023-Gear.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Ftabletalker.webp?alt=media",
     description: "Lorem Ipsum Dolar",
   },
 ];
@@ -54,19 +54,19 @@ export const ourSingatureProductsRaws = [
 export const hiwDataRaws = [
   {
     id: 1,
-    img: "https://johnlewis.scene7.com/is/image/JohnLewis/mobiles-nav-card-apple2-200323",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Fhiw1.webp?alt=media",
   },
   {
     id: 2,
-    img: "https://johnlewis.scene7.com/is/image/JohnLewis/mobiles-nav-card-apple2-200323",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Fhiw2.webp?alt=media",
   },
   {
     id: 3,
-    img: "https://johnlewis.scene7.com/is/image/JohnLewis/mobiles-nav-card-apple2-200323",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Fhiw3.webp?alt=media",
   },
   {
     id: 4,
-    img: "https://johnlewis.scene7.com/is/image/JohnLewis/mobiles-nav-card-apple2-200323",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Fhiw4.webp?alt=media",
   },
 ];
 
@@ -85,42 +85,42 @@ export const featureSharingTabDataRaws = {
       title: "NFC + QR sharing",
       description:
         "Seamlessly exchange contact details, social links, and more with a simple tap or scan. Elevate your networking game with this cutting-edge technology.",
-      img: "https://img.freepik.com/free-photo/woman-holds-fashion-shopping-bag-beauty_1150-13673.jpg",
+      img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2FsharingTab1.png?alt=media",
     },
     {
       id: 2,
       title: "Real Time Editing",
       description:
         "Seamlessly exchange contact details, social links, and more with a simple tap or scan. Elevate your networking game with this cutting-edge technology.",
-      img: "https://img.freepik.com/free-photo/woman-holds-fashion-shopping-bag-beauty_1150-13673.jpg",
+      img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2FsharingTab2.jpg?alt=media",
     },
     {
       id: 3,
       title: "Sustainable Networking",
       description:
         "Seamlessly exchange contact details, social links, and more with a simple tap or scan. Elevate your networking game with this cutting-edge technology.",
-      img: "https://img.freepik.com/free-photo/woman-holds-fashion-shopping-bag-beauty_1150-13673.jpg",
+      img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2FsharingTab3.jpg?alt=media",
     },
     {
       id: 4,
       title: "Versatility",
       description:
         "Seamlessly exchange contact details, social links, and more with a simple tap or scan. Elevate your networking game with this cutting-edge technology.",
-      img: "https://img.freepik.com/free-photo/woman-holds-fashion-shopping-bag-beauty_1150-13673.jpg",
+      img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2FsharingTab4.jpg?alt=media",
     },
     {
       id: 5,
       title: "Cost Effective",
       description:
         "Seamlessly exchange contact details, social links, and more with a simple tap or scan. Elevate your networking game with this cutting-edge technology.",
-      img: "https://img.freepik.com/free-photo/woman-holds-fashion-shopping-bag-beauty_1150-13673.jpg",
+      img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2FsharingTab5.jpg?alt=media",
     },
     {
       id: 6,
       title: "Lead Collection",
       description:
         "Seamlessly exchange contact details, social links, and more with a simple tap or scan. Elevate your networking game with this cutting-edge technology.",
-      img: "https://img.freepik.com/free-photo/woman-holds-fashion-shopping-bag-beauty_1150-13673.jpg",
+      img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2FsharingTab6.png?alt=media",
     },
   ],
 };
@@ -198,7 +198,7 @@ export const faqDataRaws = [
 ];
 
 export const shareScanData = {
-  img: "https://static.vecteezy.com/system/resources/thumbnails/003/240/364/small/shopping-online-on-phone-paper-art-modern-pink-background-gifts-box-free-vector.jpg",
+  img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Fsharescandata.gif?alt=media",
   title: "Share anything, with a tap or scan!",
   description:
     "Impress everyone you meet with the quickest and most effective way to share contact details,social medial links, and more! Designed for both individuals and teams.",
@@ -207,21 +207,21 @@ export const shareScanData = {
 
 export const infoDatas = [
   {
-    img: "https://static.vecteezy.com/system/resources/thumbnails/003/240/364/small/shopping-online-on-phone-paper-art-modern-pink-background-gifts-box-free-vector.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Finfo1.gif?alt=media",
     title: "Digital Business Cards",
     description:
       "Impress everyone you meet with the quickest and most effective way to share contact details, social media links, and more! Designed for both individuals and teams",
     btnLabel: "Get started",
   },
   {
-    img: "https://static.vecteezy.com/system/resources/thumbnails/003/240/364/small/shopping-online-on-phone-paper-art-modern-pink-background-gifts-box-free-vector.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Finfo2.gif?alt=media",
     title: "From Lead to Deal™",
     description:
       "Impress everyone you meet with the quickest and most effective way to share contact details, social media links, and more! Designed for both individuals and teams",
     btnLabel: "Get started",
   },
   {
-    img: "https://static.vecteezy.com/system/resources/thumbnails/003/240/364/small/shopping-online-on-phone-paper-art-modern-pink-background-gifts-box-free-vector.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Finfo3.gif?alt=media",
     title: "Seamless CRM Integrations",
     description:
       "Impress everyone you meet with the quickest and most effective way to share contact details, social media links, and more! Designed for both individuals and teams",
@@ -231,17 +231,47 @@ export const infoDatas = [
 
 export const infoDatas2 = [
   {
-    img: "https://static.vecteezy.com/system/resources/thumbnails/003/240/364/small/shopping-online-on-phone-paper-art-modern-pink-background-gifts-box-free-vector.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Finfo4.gif?alt=media",
     title: "The cost-effective networking solution",
     description:
       "Impress everyone you meet with the quickest and most effective way to share contact details, social media links, and more! Designed for both individuals and teams",
     btnLabel: "Get started",
   },
   {
-    img: "https://static.vecteezy.com/system/resources/thumbnails/003/240/364/small/shopping-online-on-phone-paper-art-modern-pink-background-gifts-box-free-vector.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Finfo5.gif?alt=media",
     title: "Waste less. Save more",
     description:
       "Impress everyone you meet with the quickest and most effective way to share contact details, social media links, and more! Designed for both individuals and teams",
     btnLabel: "Get started",
-  }
+  },
+];
+
+export const ourPlanDatasRaw = [
+  {
+    id: 1,
+    title: "SHRE Pro",
+    plan: 0,
+    category: "Elevate your game",
+    description:
+      "Upgrade to our Pro Plan and unlock a world of possibilities. In addition to Free Plan features, Pro Plan users can also:",
+    btnLabel: "Coming soon",
+  },
+  {
+    id: 2,
+    title: "Freemium",
+    plan: 10,
+    category: "Networking essentials",
+    description:
+      "Our Free Plan is perfect for individuals who want to experience the power of SHRE. With this plan, you can:",
+    btnLabel: "Get your now",
+  },
+  {
+    id: 3,
+    title: "SHRE Teams",
+    plan: 0,
+    category: "Tailored for your success",
+    description:
+      "Our Teams Plan is fully customisable, it includes all the features of the Pro Plan and can be tailored further, such as:",
+    btnLabel: "Coming soon",
+  },
 ];

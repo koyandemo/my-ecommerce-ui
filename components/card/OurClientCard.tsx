@@ -4,7 +4,7 @@ import React from "react";
 
 const OurClientCard = ({ name, img }: Omit<OurClientCardProps, "id">) => {
   return (
-    <div style={{ width: "200px", height: "150px", position: "relative" }}>
+    <div className='bg-gray-400' style={{ width: "200px", height: "150px", position: "relative" }}>
       <Image alt={name} layout="fill" objectFit="cover" src={img} />
     </div>
   );

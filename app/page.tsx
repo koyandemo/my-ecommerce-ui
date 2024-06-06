@@ -16,6 +16,7 @@ import {
   infoDatas,
   infoDatas2,
   ourClientsDataRaws,
+  ourPlanDatasRaw,
   ourSingatureProductsRaws,
   shareScanData,
   videoUrl,
@@ -45,7 +46,13 @@ export default function Home() {
           ))}
         </>
       </PickContainer>
-      <ShareScan isReverse={false} img={shareScanData.img} title={shareScanData.title} description={shareScanData.description} btnLabel={shareScanData.btnLabel} />
+      <ShareScan
+        isReverse={false}
+        img={shareScanData.img}
+        title={shareScanData.title}
+        description={shareScanData.description}
+        btnLabel={shareScanData.btnLabel}
+      />
       <PickContainer title="Our singature products">
         <>
           {ourProductsData.map((data: OurProductCardProps) => (
@@ -66,37 +73,37 @@ export default function Home() {
         </>
       </PickContainer>
       <SectionVideo title="Get started with SHRE in minutes" url={videoUrl} />
-      <SectionOurPlan design={1} />
+      <SectionOurPlan design={1} data={ourPlanDatasRaw} />
       <SectionFeatureSharingTab
         tabs={featureSharingTabData.tabs}
         contents={featureSharingTabData.contents}
       />
       <SectionFaq data={faqData} />
-      <div className="mt-[50px] mb-[50px]"></div>
-      <div className="mb-[150px]">
+      <div className="mt-[50px] mb-[100px] border border-gray-400"></div>
+      <div className="mb-[50px]">
         <Banner />
-        <SectionOurPlan design={2} />
+        <SectionOurPlan design={2} data={ourPlanDatasRaw} />
         <SectionInfosContainer design={1} data={infoDatas} />
         <PickContainer title="How it works">
-        <>
-          {hiwData.map((data: HowItWorkCardProps) => (
-            <HowItWorkCard key={data.id} img={data.img} />
-          ))}
-        </>
-      </PickContainer>
-      <SectionInfosContainer design={2} data={infoDatas2} />
-      <PickContainer title="Our singature products">
-        <>
-          {ourProductsData.map((data: OurProductCardProps) => (
-            <OurProductCard
-              key={data.id}
-              title={data.title}
-              img={data.img}
-              description={data.description}
-            />
-          ))}
-        </>
-      </PickContainer>
+          <>
+            {hiwData.map((data: HowItWorkCardProps) => (
+              <HowItWorkCard key={data.id} img={data.img} />
+            ))}
+          </>
+        </PickContainer>
+        <SectionInfosContainer design={2} data={infoDatas2} />
+        <PickContainer title="Our singature products">
+          <>
+            {ourProductsData.map((data: OurProductCardProps) => (
+              <OurProductCard
+                key={data.id}
+                title={data.title}
+                img={data.img}
+                description={data.description}
+              />
+            ))}
+          </>
+        </PickContainer>
       </div>
     </div>
   );

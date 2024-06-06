@@ -10,7 +10,7 @@ interface PickContainerProps {
 
 const Container = ({title,children}:PickContainerProps) => {
   return (
-    <div className="w-[inherit] flex justify-center items-center flex-col gap-[30px] mt-[80px]">
+    <div className="w-[inherit] flex justify-center items-center flex-col gap-[30px] mt-[50px]">
       <TextComponent
         mainTxt={title}
         size="lg"

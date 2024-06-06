@@ -22,7 +22,7 @@ const SectionFeatureSharingTab = ({
             key={data.id}
             className={`inline-flex text-center justify-center items-center px-4 py-3 rounded-sm active w-full cursor-pointer ${
               active === data.id
-                ? "bg-blue-700 text-white"
+                ? "bg-[#6D3DF5] text-white"
                 : "bg-white text-black"
             }`}
             onClick={() => {
@@ -43,6 +43,7 @@ const SectionFeatureSharingTab = ({
                 </h3>
                 <p className="mb-2">{data.description}</p>
                 <div
+                  className="bg-gray-400"
                   style={{
                     width: "100%",
                     height: "200px",

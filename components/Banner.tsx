@@ -4,12 +4,13 @@ import Image from 'next/image'
 const Banner = () => {
   return (
     <div className='w-[inherit] h-[100px] flex items-center justify-center bg-gray-500 mt-[50px]'>
-     <div style={{width: '100%', height: '150px', position: 'relative'}}>
+     <div className='bg-gray-400' style={{width: '100%', height: '150px', position: 'relative'}}>
      <Image 
       alt='Banner'
       layout="fill"
       objectFit='cover'
-      src="https://static.vecteezy.com/system/resources/thumbnails/003/240/364/small/shopping-online-on-phone-paper-art-modern-pink-background-gifts-box-free-vector.jpg"
+      objectPosition="top"
+      src="https://firebasestorage.googleapis.com/v0/b/books-club-87d13.appspot.com/o/ecommerce-ui%2Fbanner.webp?alt=media&token=2695e9b6-3d27-4bff-9ee9-7d2b89a3c53e"
      />
     </div>
     </div>

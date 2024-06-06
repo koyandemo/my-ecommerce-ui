@@ -14,7 +14,7 @@ interface ShareScanProps{
 const ShareScan = ({isReverse,img,title,description,btnLabel}:ShareScanProps) => {
   return (
     <div className={`flex flex-col justify-center items-center gap-[10px] mt-[50px]  ${isReverse ? "sm:flex-row-reverse sm:justify-start sm:items-start" : "sm:flex-row sm:justify-start sm:items-start"}`}>
-      <div className='w-[100%] sm:w-[50%] h-[300px] relative'>
+      <div className='w-[100%] sm:w-[50%] h-[300px] relative bg-gray-400'>
      <Image 
       alt='Banner'
       layout="fill"
